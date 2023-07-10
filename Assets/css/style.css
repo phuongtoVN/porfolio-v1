@@ -1,0 +1,115 @@
+nav, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+/* Style the navbar */
+nav {
+  background-color: #ff9090;
+}
+
+/* Style the list items */
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 30px;
+}
+
+/* Style the links */
+nav a {
+  font-size: 20px;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #424242;
+  
+}
+
+nav a:hover {
+  background-color: #fcb2b2;
+  color: black;
+}
+.contact {
+  display: block;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.about-me {
+    margin: 30px 50px 20px 50px;
+    font-size: 20px;
+
+}
+
+.app-name{
+    background-color: #fab4b4;
+    color: rgb(180, 87, 87);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 0 10px;
+}
+
+.image-link {
+  position: relative;
+  margin: 10px 0 0 30px;
+  flex:1;
+}
+  
+.image-link p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.resized-image-1 {
+    width: 620px;
+    height: 300px;
+}
+
+.resized-image {
+  width: 300px;
+  height: 200px;
+}
+
+.resized-image:hover, .resized-image-1:hover {
+    border: 2px solid rgb(196, 76, 76);
+    opacity: 0.5;
+}
+
+body {
+    background-color: #fde4e4;
+}
+
+.contact li{
+    display: inline block;
+    margin-left: 30px;
+    font-size: 17px
+}
+.image-container {
+  display: flex;
+}
+
+.container {
+    display: flex;
+    margin: 30px 0 0 15px;
+}
+h2 {
+    font-size: 35px;
+}
+.add-img {
+    background-image: url("../images/bg.jpg");
+    background-size:contain;
+}
+
+.add-img p {
+    color: rgb(255, 72, 103);
+    font-size: 40px;
+    text-align: center;
+    padding: 40px 0 40px 0;
+    margin-top:0;
+}
